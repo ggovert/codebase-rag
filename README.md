@@ -1,6 +1,6 @@
 # Codebase Chatbot Assistant 🤖
 
-This project is a **Codebase Chatbot Assistant** designed to help developers and users interact with a codebase repository more effectively. Built with **Streamlit**, **Pinecone**, and **OpenAI**, this chatbot leverages advanced embeddings and natural language processing to retrieve relevant documents and answer queries about the codebase.
+This project is a **Codebase Chatbot Assistant** designed to help developers and users interact with a codebase repository more effectively. Built with **Streamlit**, **Pinecone**, **LangChain** and **GROQ**, this chatbot leverages advanced embeddings and natural language processing to retrieve relevant documents and answer queries about the codebase.
 
 ---
 
