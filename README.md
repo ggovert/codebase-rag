@@ -25,6 +25,9 @@ This project is a **Codebase Chatbot Assistant** designed to help developers and
 - ├── requirements.txt # Dependencies for the project
 - ├── README.md # Project documentation
 - ├── .gitignore
+- ├── venv
+- ├── .streamlit
+-      ├── secrets.toml
 
 
 
@@ -44,30 +47,27 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
    cd <repo-name>
-Set up a virtual environment:
+   
+2. **Set up a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
-bash
-Copy code
-pip install -r requirements.txt
-Add secrets: Create a .streamlit/secrets.toml file and include the following:
+4. **Add secrets: Create a .streamlit/secrets.toml file and include the following:**
+   ```toml
+   [secrets]
+   PINECONE_API_KEY = "your-pinecone-api-key"
+   GROQ_API_KEY = "your-openai-api-key"
 
-toml
-Copy code
-[secrets]
-PINECONE_API_KEY = "your-pinecone-api-key"
-GROQ_API_KEY = "your-openai-api-key"
-Run the application:
-
-bash
-Copy code
-streamlit run app.py
-Access the app: Open the URL displayed in your terminal (usually http://localhost:8501).
+5. **Run the application:**
+   ```bash
+   streamlit run app.py
+   
+7. **Access the app: Open the URL displayed in your terminal (usually http://localhost:8501).**
 
 🧪 Example Usage
 Open the chatbot UI.
