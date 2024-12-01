@@ -69,42 +69,40 @@ Ensure you have the following installed:
    
 7. **Access the app: Open the URL displayed in your terminal (usually http://localhost:8501).**
 
-🧪 Example Usage
-Open the chatbot UI.
-Type a question about the codebase, such as:
-"How does the authentication function work in the codebase?"
+## 🧪 Example Usage
+1. Open the chatbot UI.
+2. Type a question about the codebase, such as:
+-       "How does the authentication function work in the codebase?"
+3. Receive intelligent responses, along with contextual snippets from the repository.
 
-Receive intelligent responses, along with contextual snippets from the repository.
-📦 Deployment on Streamlit Cloud
+## 📦 Deployment on Streamlit Cloud
 Push the repository to GitHub.
 Go to Streamlit Cloud and connect your GitHub repository.
 Set environment variables in the Streamlit Cloud dashboard for your API keys.
 Deploy and share your chatbot with others!
-🛡️ License
+
+## 🛡️ License
 This project is licensed under the MIT License.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (feature/my-feature).
+3. Commit your changes and open a pull request.
 
-Fork the repository.
-Create a new branch (feature/my-feature).
-Commit your changes and open a pull request.
-🙌 Acknowledgments
-Streamlit Community for providing a simple yet powerful platform for building data apps.
-Pinecone for seamless vector search.
-OpenAI for enabling advanced conversational capabilities.
-📧 Contact
+## 🙌 Acknowledgments
+- Streamlit Community for providing a simple yet powerful platform for building data apps.
+- Pinecone for seamless vector search.
+- OpenAI for enabling advanced conversational capabilities.
+
+## 📧 Contact
 For any questions, feel free to reach out via:
 
 Email: your-email@example.com
 GitHub: your-username
-Enjoy coding! ✨
 
-vbnet
-Copy code
+## Enjoy coding! ✨
 
 ### Steps to Use:
 1. Replace placeholders (`<your-username>`, `<repo-name>`, and API keys) with your actual details.
 2. Update the **Contact** section with your preferred communication methods.
-
-This README ensures your project is easy to understand and use for collaborators or viewers. Let me know
