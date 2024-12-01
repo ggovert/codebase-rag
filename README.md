@@ -21,10 +21,12 @@ This project is a **Codebase Chatbot Assistant** designed to help developers and
 ---
 
 ## 📂 Folder Structure
-. ├── app.py # Main Streamlit application ├── requirements.txt # Dependencies for the project ├── README.md # Project documentation ├── .gitignore
+- ├── app.py # Main Streamlit application 
+- ├── requirements.txt # Dependencies for the project
+- ├── README.md # Project documentation
+- ├── .gitignore
 
-markdown
-Copy code
+
 
 ---
 
