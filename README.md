@@ -81,8 +81,6 @@ Go to Streamlit Cloud and connect your GitHub repository.
 Set environment variables in the Streamlit Cloud dashboard for your API keys.
 Deploy and share your chatbot with others!
 
-## 🛡️ License
-This project is licensed under the MIT License.
 
 ## 🤝 Contributing
 Contributions are welcome! To contribute:
@@ -94,12 +92,6 @@ Contributions are welcome! To contribute:
 - Streamlit Community for providing a simple yet powerful platform for building data apps.
 - Pinecone for seamless vector search.
 - OpenAI for enabling advanced conversational capabilities.
-
-## 📧 Contact
-For any questions, feel free to reach out via:
-
-Email: your-email@example.com
-GitHub: your-username
 
 ## Enjoy coding! ✨
 
